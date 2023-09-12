@@ -1,0 +1,68 @@
+[
+{"type":"header","version":"4.9.2","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"database","name":"gp_database"},
+{"type":"table","name":"appointments","database":"gp_database","data":
+[
+{"AppointmentID":"APT48313","PatientID":"PD005678","GMCNumber":"DOC87657","AppointmentDateTime":"2023-03-03 10:00:00","DayOfApt":"Friday","IsPatientRegWithDoc":"0","ReasonForVisit":"headache"},
+{"AppointmentID":"APT48314","PatientID":"PD005679","GMCNumber":"DOC87656","AppointmentDateTime":"2023-03-07 17:00:00","DayOfApt":"Tuesday","IsPatientRegWithDoc":"1","ReasonForVisit":"fever, bodyaches and headaches\r\n"},
+{"AppointmentID":"APT48315","PatientID":"PD005680","GMCNumber":"DOC87657","AppointmentDateTime":"2023-03-07 17:00:00","DayOfApt":"Tuesday","IsPatientRegWithDoc":"1","ReasonForVisit":"diabetics check\r\n"},
+{"AppointmentID":"APT48316","PatientID":"PD005681","GMCNumber":"DOC87657","AppointmentDateTime":"2023-03-04 10:00:00","DayOfApt":"Saturday","IsPatientRegWithDoc":"1","ReasonForVisit":"skin allergy\r\n"},
+{"AppointmentID":"APT48317","PatientID":"PD005682","GMCNumber":"DOC87656","AppointmentDateTime":"2023-03-03 11:00:00","DayOfApt":"Friday","IsPatientRegWithDoc":"1","ReasonForVisit":"dental infection\r\n"},
+{"AppointmentID":"APT48318","PatientID":"PD005683","GMCNumber":"DOC87654","AppointmentDateTime":"2021-03-03 14:00:00","DayOfApt":"Wednesday","IsPatientRegWithDoc":"1","ReasonForVisit":"toothache\r\n"}
+]
+}
+,{"type":"table","name":"diagnosis","database":"gp_database","data":
+[
+{"DiagnosisID":"DID65436","AppointmentID":"APT48313","CurrentMedication":"Codeine","RecentCondition":"Migraines","Allergies":"nuts, eggs","TreatmentPlan":"medication and  t-SNS"},
+{"DiagnosisID":"DID65437","AppointmentID":"APT48314","CurrentMedication":null,"RecentCondition":null,"Allergies":null,"TreatmentPlan":null},
+{"DiagnosisID":"DID65438","AppointmentID":"APT48315","CurrentMedication":null,"RecentCondition":null,"Allergies":"shellfish","TreatmentPlan":null},
+{"DiagnosisID":"DID65439","AppointmentID":"APT48316","CurrentMedication":"Hydrocortisone","RecentCondition":"contact dermatitis","Allergies":"penicillin","TreatmentPlan":"apply the emollient "},
+{"DiagnosisID":"DID65440","AppointmentID":"APT48317","CurrentMedication":null,"RecentCondition":null,"Allergies":null,"TreatmentPlan":null},
+{"DiagnosisID":"DID65441","AppointmentID":"APT48318","CurrentMedication":"Co-codamol","RecentCondition":"Toothache","Allergies":null,"TreatmentPlan":"referred to dentist"}
+]
+}
+,{"type":"table","name":"doctorrecords","database":"gp_database","data":
+[
+{"GMCNumber":"DOC87654","DoctorName":"Dr Davids","Speciality":"General Practice","PhoneNumber":"0404-381-2981","EmailAddress":"drdavids@abc-reg.co.uk"},
+{"GMCNumber":"DOC87655","DoctorName":"Dr King","Speciality":"Dermatology","PhoneNumber":"0278-999-9864","EmailAddress":"dr_king@hotmail.com"},
+{"GMCNumber":"DOC87656","DoctorName":"Dr Jenkins","Speciality":"Palliative Medicine","PhoneNumber":"0477-184-9606","EmailAddress":"drjenkins@live.com"},
+{"GMCNumber":"DOC87657","DoctorName":"Dr Jones","Speciality":"Diabetes management","PhoneNumber":"0961-240-6554","EmailAddress":"drjones@gmail.com"}
+]
+}
+,{"type":"table","name":"patientdoctorjoin","database":"gp_database","data":
+[
+{"PatientID":"PD005678","GMCNumber":"DOC87654"},
+{"PatientID":"PD005680","GMCNumber":"DOC87654"},
+{"PatientID":"PD005683","GMCNumber":"DOC87654"},
+{"PatientID":"PD005678","GMCNumber":"DOC87655"},
+{"PatientID":"PD005679","GMCNumber":"DOC87655"},
+{"PatientID":"PD005682","GMCNumber":"DOC87655"},
+{"PatientID":"PD005683","GMCNumber":"DOC87655"},
+{"PatientID":"PD005679","GMCNumber":"DOC87656"},
+{"PatientID":"PD005681","GMCNumber":"DOC87656"},
+{"PatientID":"PD005682","GMCNumber":"DOC87656"},
+{"PatientID":"PD005680","GMCNumber":"DOC87657"},
+{"PatientID":"PD005681","GMCNumber":"DOC87657"}
+]
+}
+,{"type":"table","name":"patientrecords","database":"gp_database","data":
+[
+{"PatientID":"PD005678","PatientName":"Jenna Smith","PatientAddress":"23 Smart Lane, Newtown FK40 1DD","PatientDOB":"1970-04-27","PhoneNumber":"01234 567890","EmailAddress":"jennasmith@cbs.com","RegisteredDate":"2004-01-31"},
+{"PatientID":"PD005679","PatientName":"Frank Jones","PatientAddress":"73 Dunstable Road, Newtown FK40 4AW","PatientDOB":"1980-12-06","PhoneNumber":"01234 976543","EmailAddress":"jonesfrank@wix.com","RegisteredDate":"2004-05-05"},
+{"PatientID":"PD005680","PatientName":"Tracy Nguyen","PatientAddress":"1 Summer Crescent, Newtown FK40 7BS","PatientDOB":"1973-07-08","PhoneNumber":"01234 876456","EmailAddress":"tracynguyen@nba.com","RegisteredDate":"2004-06-30"},
+{"PatientID":"PD005681","PatientName":"Joan Jett","PatientAddress":"67 Black Street, Newtown FK40 7JK","PatientDOB":"1972-01-06","PhoneNumber":"01234 566478","EmailAddress":"joan@slashdot.org","RegisteredDate":"2004-07-10"},
+{"PatientID":"PD005682","PatientName":"Frank Jones","PatientAddress":"73 Dunstable Road, Newtown FK40 4AW","PatientDOB":"2008-06-17","PhoneNumber":"01234 976543","EmailAddress":"frankjones1@wisc.edu","RegisteredDate":"2004-09-15"},
+{"PatientID":"PD005683","PatientName":"Karen Norman","PatientAddress":"1 Hedge Road, Newtown FK40 3GT","PatientDOB":"1989-12-31","PhoneNumber":"01234 334467","EmailAddress":"karen@live.com","RegisteredDate":"2005-11-30"}
+]
+}
+,{"type":"table","name":"prescription","database":"gp_database","data":
+[
+{"PrescriptionID":"P456","DiagnosisID":"DID65436","MedicationName":"Triptan, Ibuprofen","Dosage":"40","StartDate":"2023-03-03","EndDate":"2023-03-08"},
+{"PrescriptionID":"P457","DiagnosisID":"DID65437","MedicationName":null,"Dosage":null,"StartDate":null,"EndDate":null},
+{"PrescriptionID":"P458","DiagnosisID":"DID65438","MedicationName":null,"Dosage":null,"StartDate":null,"EndDate":null},
+{"PrescriptionID":"P459","DiagnosisID":"DID65439","MedicationName":"Benadryl, Zyrtec","Dosage":"30","StartDate":"2023-03-04","EndDate":"2023-03-10"},
+{"PrescriptionID":"P460","DiagnosisID":"DID65440","MedicationName":null,"Dosage":null,"StartDate":null,"EndDate":null},
+{"PrescriptionID":"P461","DiagnosisID":"DID65441","MedicationName":"anaesthetic gel, Hydrogen Peroxide Rinse","Dosage":"60","StartDate":"2023-03-03","EndDate":"2023-03-08"}
+]
+}
+]
