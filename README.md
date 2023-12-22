@@ -3,10 +3,10 @@ The healthcare system has critical and complex data pertaining to patient demogr
 <br>
 The use cases that can be identified from the scenario are,
 <ol>
-  1. Electronic Medical Records (EMR): The healthcare system may use the data such as diagnosis, current/previous medications, recent conditions, and allergies to track a patient's medical history, diagnose conditions, and prescribe medications.
-  2. Pandemic Surveillance System: The database may help track the illness trends and patterns of the registered patients for early evaluation and surveillance of pandemics.
-  3. Appointment Reminder System: The database system may help provide patients with automatic appointment reminders and send prioritised reminders to the staff, which will aid in lowering the chance of no-shows and improve the patient experience.
-  4. Doctor’s Schedule & Performance Tracking: The database can be used to manage doctors' schedules, appointments, and holidays, ensuring that doctors are available to see patients when they are needed. Furthermore, the database can be modified in the future to track a doctor's performance by including patient satisfaction feedback and medical outcomes to assess and enhance their expertise.
-  5. GP & Pharmacy Management: Patient, doctor, and diagnosis information management may aid in delivering prompt medical care to patients by the GP/hospital. In addition, pharmacies may utilise the database to manage prescription information and fill prescriptions precisely and securely.
+  <li> Electronic Medical Records (EMR): The healthcare system may use the data such as diagnosis, current/previous medications, recent conditions, and allergies to track a patient's medical history, diagnose conditions, and prescribe medications. </li>
+  <li> Pandemic Surveillance System: The database may help track the illness trends and patterns of the registered patients for early evaluation and surveillance of pandemics. </li>
+  <li> Appointment Reminder System: The database system may help provide patients with automatic appointment reminders and send prioritised reminders to the staff, which will aid in lowering the chance of no-shows and improve the patient experience. </li>
+  <li> Doctor’s Schedule & Performance Tracking: The database can be used to manage doctors' schedules, appointments, and holidays, ensuring that doctors are available to see patients when they are needed. Furthermore, the database can be modified in the future to track a doctor's performance by including patient satisfaction feedback and medical outcomes to assess and enhance their expertise. </li>
+  <li> GP & Pharmacy Management: Patient, doctor, and diagnosis information management may aid in delivering prompt medical care to patients by the GP/hospital. In addition, pharmacies may utilise the database to manage prescription information and fill prescriptions precisely and securely. </li>
 </ol>
 </p>
