@@ -1,0 +1,12 @@
+<p align="justify"> 
+The healthcare system has critical and complex data pertaining to patient demographics, diagnoses, and treatments; hence it is crucial to maintain and manage the data in an organised manner. The information will also be beneficial in determining a region's specific health requirements, tracking illness trends, and improve service quality. Therefore, the Newtown medical practice has decided to move the data from a spreadsheet to a more manageable database as it provides accuracy, data integrity, and compliance and is flexible and scalable. The report outlines the relational database design and proposals for the healthcare system at Doctor's Surgery, Newtown. While migrating the data, several fields have been added to improve the system’s efficiency and versatility. The spreadsheet’s historical data is categorised into various tables during the process, including PatientRecords, DoctorRecords, Appointments, Diagnose, and Prescriptions, to streamline the process for the doctors and staff to maintain and manage the records.
+<br>
+The use cases that can be identified from the scenario are,
+<ol>
+  1. Electronic Medical Records (EMR): The healthcare system may use the data such as diagnosis, current/previous medications, recent conditions, and allergies to track a patient's medical history, diagnose conditions, and prescribe medications.
+  2. Pandemic Surveillance System: The database may help track the illness trends and patterns of the registered patients for early evaluation and surveillance of pandemics.
+  3. Appointment Reminder System: The database system may help provide patients with automatic appointment reminders and send prioritised reminders to the staff, which will aid in lowering the chance of no-shows and improve the patient experience.
+  4. Doctor’s Schedule & Performance Tracking: The database can be used to manage doctors' schedules, appointments, and holidays, ensuring that doctors are available to see patients when they are needed. Furthermore, the database can be modified in the future to track a doctor's performance by including patient satisfaction feedback and medical outcomes to assess and enhance their expertise.
+  5. GP & Pharmacy Management: Patient, doctor, and diagnosis information management may aid in delivering prompt medical care to patients by the GP/hospital. In addition, pharmacies may utilise the database to manage prescription information and fill prescriptions precisely and securely.
+</ol>
+</p>
